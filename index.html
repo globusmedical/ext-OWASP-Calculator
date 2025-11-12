@@ -54,10 +54,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" id="sl" name="sl" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">No technical skills (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
               <option value="3">Some technical skills (3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
               <option value="5">Advanced computer user (5)</option>
               <option value="6">Network and programming skills (6)</option>
+              <option value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Security penetration skills (9)</option>
             </select>
           </div>
@@ -69,8 +74,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="m" name="m" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">Low or no reward (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
               <option value="4">Possible reward (4)</option>
+              <option value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
+              <option value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">High reward (9)</option>
             </select>
           </div>
@@ -82,13 +94,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="o" name="o" onchange="calculate()">
-              <option value="0">
-                Full access or expensive resources required (0)
-              </option>
-              <option value="4">
-                Special access or resources required (4)
-              </option>
+              <option value="0">Full access or expensive resources required (0)</option>
+              <option value="1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
+              <option value="4">Special access or resources required (4)</option>
+              <option value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
               <option value="7">Some access or resources required (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">No access or resources required (9)</option>
             </select>
           </div>
@@ -99,10 +113,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="s" name="s" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
+              <option value="1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</option>
               <option value="2">Developers, System administrators (2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
               <option value="4">Intranet users (4)</option>
               <option value="5">Partners (5)</option>
               <option value="6">Authenticated users (6)</option>
+              <option value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Anonymous Internet users (9)</option>
             </select>
           </div>
@@ -122,14 +141,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="lc" name="lc" onchange="calculate()">
-              <option value="2">
-                Minimal non-sensitive data disclosed (2)
-              </option>
-              <option value="6">minimal critical data disclosed (6)</option>
-              <option value="6">
-                extensive non-sensitive data disclosed (6)
-              </option>
+              <option value="0"> N/A (0)</option>
+              <option value="1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</option>
+              <option value="2">Minimal non-sensitive data disclosed (2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
+              <option value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)</option>
+              <option value="6">minimal critical/extensive non-sensitive data disclosed (6)</option>
               <option value="7">extensive critical data disclosed (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">all data disclosed (9)</option>
             </select>
           </div>
@@ -141,10 +161,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="li" name="li" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">Minimal slightly corrupt data (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
               <option value="3">Minimal seriously corrupt data (3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
               <option value="5">Extensive slightly corrupt data (5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
               <option value="7">Extensive seriously corrupt data (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">All data totally corrupt (9)</option>
             </select>
           </div>
@@ -157,18 +182,15 @@
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="lav" name="lav"
               onchange="calculate()">
-              <option value="1">
-                Minimal secondary services interrupted (1)
-              </option>
-              <option value="5">
-                Minimal primary services interrupted (5)
-              </option>
-              <option value="5">
-                Extensive secondary services interrupted (5)
-              </option>
-              <option value="7">
-                Extensive primary services interrupted (7)
-              </option>
+              <option value="0"> N/A (0)</option>
+              <option value="1">Minimal secondary services interrupted (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
+              <option value="5">Minimal primary services/Extensive secondary services interrupted (5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
+              <option value="7">Extensive primary services interrupted (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">All services completely lost (9)</option>
             </select>
           </div>
@@ -181,8 +203,15 @@
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="lac" name="lac"
               onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">Fully traceable (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
+              <option value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
               <option value="7">Possibly traceable (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Completely anonymous (9)</option>
             </select>
           </div>
@@ -205,9 +234,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="ed" name="ed" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">Practically impossible (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
               <option value="3">Difficult (3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
+              <option value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
               <option value="7">Easy (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Automated tools available (9)</option>
             </select>
           </div>
@@ -219,9 +254,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="ee" name="ee" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">Theoretical (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
               <option value="3">Difficult (3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
               <option value="5">Easy (5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
+              <option value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Automated tools available (9)</option>
             </select>
           </div>
@@ -233,9 +274,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="a" name="a" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">Unknown (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
               <option value="4">Hidden (4)</option>
+              <option value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)</option>
               <option value="6">Obvious (6)</option>
+              <option value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Public knowledge (9)</option>
             </select>
           </div>
@@ -246,8 +293,14 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="id" name="id" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">Active detection in application (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
               <option value="3">Logged and reviewed (3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
+              <option value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
+              <option value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)</option>
               <option value="8">Logged without review (8)</option>
               <option value="9">Not logged (9)</option>
             </select>
@@ -268,13 +321,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="fd" name="fd" onchange="calculate()">
-              <option value="1">
-                Less than the cost to fix the vulnerability (1)
-              </option>
+              <option value="0"> N/A (0)</option>
+              <option value="1">Less than the cost to fix the vulnerability (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
               <option value="3">Minor effect on annual profit (3)</option>
-              <option value="7">
-                Significant effect on annual profit (7)
-              </option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
+              <option value="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
+              <option value="7">Significant effect on annual profit (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Bankruptcy (9)</option>
             </select>
           </div>
@@ -286,9 +341,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="rd" name="rd" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
               <option value="1">Minimal damage (1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
               <option value="4">Loss of major accounts (4)</option>
               <option value="5">Loss of goodwill (5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
+              <option value="7"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Brand damage (9)</option>
             </select>
           </div>
@@ -300,9 +361,16 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="nc" name="nc" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
+              <option value="1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</option>
               <option value="2">Minor violation (2)</option>
+              <option value="3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
               <option value="5">Clear violation (5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
               <option value="7">High profile violation (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
+              <option value="9"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(9)</option>
             </select>
           </div>
         </div>
@@ -313,9 +381,15 @@
           </div>
           <div class="col-8">
             <select class="form-control" aria-label=".form-select-sm example" id="pv" name="pv" onchange="calculate()">
+              <option value="0"> N/A (0)</option>
+              <option value="1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</option>
+              <option value="2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)</option>
               <option value="3">One individual (3)</option>
+              <option value="4"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</option>
               <option value="5">Hundreds of people (5)</option>
+              <option value="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)</option>
               <option value="7">Thousands of people (7)</option>
+              <option value="8"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)</option>
               <option value="9">Millions of people (9)</option>
             </select>
           </div>
@@ -343,8 +417,8 @@
       <div>
         <b>VECTOR: </b>
         <a id="score"
-          href="https://optitool.github.io/OWASP-Calculator/?vector=(SL:1/M:1/O:0/S:2/ED:1/EE:1/A:1/ID:1/LC:2/LI:1/LAV:1/LAC:1/FD:1/RD:1/NC:2/PV:3)"
-          target="_blank">(SL:1/M:1/O:0/S:2/ED:1/EE:1/A:1/ID:1/LC:2/LI:1/LAV:1/LAC:1/FD:1/RD:1/NC:2/PV:3)</a>
+          href="./index.html?vector=(SL:0/M:0/O:0/S:0/ED:0/EE:0/A:0/ID:0/LC:0/LI:0/LAV:0/LAC:0/FD:0/RD:0/NC:0/PV:0)"
+          target="_blank">(SL:0/M:0/O:0/S:0/ED:0/EE:0/A:0/ID:0/LC:0/LI:0/LAV:0/LAC:0/FD:0/RD:0/NC:0/PV:0)</a>
         <button id="copyButton" onclick="copyToClipboard()" title="Copy to clipboard">
           <i class="far fa-copy"></i>
         </button>
