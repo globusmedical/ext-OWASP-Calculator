@@ -1,12 +1,20 @@
-<div align="center">
-  <h1>OWASP Risk Assessment Calculator</h1>
+# OWASP Risk Assessment Calculator
 
-  <h4>🧮 An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment.</h4>
+An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment.
 
-<a align="center" href="https://javierolmedo.github.io/OWASP-Calculator/" target="_blank">GO TO ONLINE CALCULATOR</a>
+[See our hosted page for a live version](https://globusmedical.github.io/ext-OWASP-Calculator/)
 
-![](https://raw.githubusercontent.com/JavierOlmedo/OWASP-Calculator/master/img/orac.gif)
+## Change Log
 
-> _Made with ❤️ in Spain_
+### 12 Nov 2025
 
-</div>
+- Fixed URLs and documentation to point to this fork.
+- Populate all levels, 0 to 9, for each factor
+
+### Many changes by OPTITOOL
+
+- See <https://github.com/OPTITOOL/OWASP-Calculator>
+
+### Many changes by JavierOlemdo
+
+- See <https://github.com/JavierOlmedo/OWASP-Calculator>
