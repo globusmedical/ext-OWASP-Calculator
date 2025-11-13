@@ -121,7 +121,7 @@ function calculate() {
 
   const scoreVector = generateScoreVector();
   $('#score').text(scoreVector);
-  $("#score").attr("href", `https://optitool.github.io/OWASP-Calculator/?vector=${scoreVector}`);
+  $("#score").attr("href", `./index.html?vector=${scoreVector}`);
 }
 
 // Calculate the average score for a set of inputs
